@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Marakana</string>
+	<key>ordering</key>
+	<array>
+		<string>C8F74DF9-1ED9-4C45-AC0A-2A7342F65A73</string>
+		<string>D43FF57A-4731-4406-85AF-F9D9CBF1EF53</string>
+		<string>F28C0F63-6CC2-4077-9E83-CD68E48182B9</string>
+		<string>B8E1B5AE-1E9A-444F-92FE-900B3DCD29A1</string>
+		<string>F03678F6-24EF-49B0-BA43-8F79BB661C18</string>
+		<string>DBEA0647-FA7A-4A9D-985A-F7EFA5A01579</string>
+	</array>
+	<key>uuid</key>
+	<string>587BD4CB-31EF-40A8-AA98-019394A5DBCF</string>
+</dict>
+</plist>

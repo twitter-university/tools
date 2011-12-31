@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>[role="handout"]
+--
+'''
+
+${TM_SELECTED_TEXT}
+--
+</string>
+	<key>keyEquivalent</key>
+	<string>^n</string>
+	<key>name</key>
+	<string>Wrap as Student Note</string>
+	<key>scope</key>
+	<string>text.html.asciidoc</string>
+	<key>uuid</key>
+	<string>B8E1B5AE-1E9A-444F-92FE-900B3DCD29A1</string>
+</dict>
+</plist>

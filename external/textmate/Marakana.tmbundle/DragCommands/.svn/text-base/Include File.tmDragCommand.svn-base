@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>lower=$(echo $TM_DROPPED_FILE | tr [:upper:] [:lower:])
+case $lower in
+	*.awk)
+		lang="awk" ;;
+	*.c|*.h)
+		lang="c" ;;
+	*.cc|*.cpp|*.cp|*.cxx|*.c++|*.hh|*.hpp|*.h++)
+		lang="cpp" ;;
+	*.css)
+		lang="css" ;;
+	*.html|*.htm)
+		lang="html" ;;
+	*.java|*.aidl)
+		lang="java" ;;
+	*.js)
+		lang="javascript" ;;
+	*.jsp)
+		# Is there a better choice here?
+		lang="html" ;;
+	*.php)
+		lang="php" ;;
+	*.pl|*.plx)
+		lang="perl" ;;
+	*.properties)
+		lang="properties" ;;
+	*.py)
+		lang="python" ;;
+	*.ruby|*.rb)
+		lang="ruby" ;;
+	*.sh|*.bash|*.ksh)
+		lang="shell" ;;
+	*.sql)
+		lang="sql" ;;
+	*.tcl|*.tk)
+		lang="tcl" ;;
+	*.xml|*.xsl|*.xslt)
+		lang="xml" ;;
+	*)
+		lang="" ;;
+esac
+
+if [ -n "$lang" ]; then
+	echo "[source,$lang]"
+	echo "----"
+fi
+echo "include::$TM_DROPPED_FILE[]"
+if [ -n "$lang" ]; then
+	echo "----"
+fi
+</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>*</string>
+	</array>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Include File</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>text.html.asciidoc</string>
+	<key>uuid</key>
+	<string>DBEA0647-FA7A-4A9D-985A-F7EFA5A01579</string>
+</dict>
+</plist>

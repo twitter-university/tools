@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>== Slide Title
+
+// TODO: Slide content goes here
+
+[role="handout"]
+--
+'''
+
+// TODO: Student notes content goes here
+
+--
+
+</string>
+	<key>name</key>
+	<string>New Marakana Course Slide</string>
+	<key>scope</key>
+	<string>text.html.asciidoc</string>
+	<key>tabTrigger</key>
+	<string>slide</string>
+	<key>uuid</key>
+	<string>F28C0F63-6CC2-4077-9E83-CD68E48182B9</string>
+</dict>
+</plist>
