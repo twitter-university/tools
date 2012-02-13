@@ -12,6 +12,7 @@
 		<string>jpg</string>
 		<string>jpeg</string>
 		<string>gif</string>
+		<string>svg</string>
 	</array>
 	<key>input</key>
 	<string>selection</string>
