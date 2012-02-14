@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>
+[[Module_Name]]
+== Module Name
+
+.Sequencing
+Explains why a learning object is at a given point in the course.
+
+.Motivation
+Explains why a learning object is in the course
+
+.Learning Objective
+Upon completion of this module you should be able to:
+
+* Explain X
+* Do Y
+
+[[Topic_Name]]
+=== Topic Name
+
+.Learning Objective
+
+* You will learn X
+* And Y
+
+CONTENT GOES HERE
+
+==== Lab or Quiz
+Lab or quiz
+
+==== Summary
+Restates objective, reaffirms WIIFM
+
+
+
+// End of Topic
+
+=== Module Summary
+
+=== Lab or Quiz
+Lab or quiz
+
+// End of Module</string>
+	<key>name</key>
+	<string>New Marakana Module</string>
+	<key>scope</key>
+	<string>text.html.asciidoc</string>
+	<key>tabTrigger</key>
+	<string>module</string>
+	<key>uuid</key>
+	<string>5E944383-4119-4E2F-A6CE-06BF43C1FBED</string>
+</dict>
+</plist>
