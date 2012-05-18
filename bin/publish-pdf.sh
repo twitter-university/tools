@@ -15,5 +15,5 @@ if [ $# -eq 2 ]; then
     attrs+=("-a title_suffix=\"$3\"")
 fi
 
-eval ~/workspace/external/asciidoc/a2x.py ${attrs[@]} $FILE
+eval a2x.py ${attrs[@]} $FILE
 
