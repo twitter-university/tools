@@ -13,7 +13,7 @@ if [ "x$MARAKANA_ROOT" == "x" ]; then
 fi
 
 PATH=${MARAKANA_ROOT}/external/asciidoc:${PATH}
-PATH=${MARAKANA_ROOT}/tools:${PATH}
+PATH=${MARAKANA_ROOT}/tools/bin:${PATH}
 
 export PATH
 
