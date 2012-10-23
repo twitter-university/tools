@@ -17,7 +17,7 @@ if [ $# -eq 3 ]; then
     attrs+=("-a title_suffix=\"for $3\"")
 fi
 
-eval asciidoc.py ${attrs[@]} -o $DIR/index.html $ASCII_DOC_ATTRS $FILE
+eval asciidoc ${attrs[@]} -o $DIR/index.html $ASCII_DOC_ATTRS $FILE
 
 
 FILES=`grep -o -E '<img src="([^"]+)"' $DIR/index.html | grep -v http | grep -o -E '(screens|images)/[^"]+' | sort -u`
